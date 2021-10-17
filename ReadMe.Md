@@ -2,6 +2,8 @@
 
    ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen) ![enter image description here](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white) ![enter image description here](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/revanth-reddy/tamudatathon/)
+
 > This [Dataset](https://github.com/revanth-reddy/tamudatathon/blob/master/hackathons_data.csv) is built as a part of TAMU Datathon 2021. It contains the
 > details of hackathon which include Title, Location, Start Date, End
 > Date, Prize Money, Number of Participants, Host of Hackathon, Themes
@@ -9,7 +11,7 @@
 
 > As a part of [Tamu Datathon 2021](https://tamudatathon.com/) challenges, we approached the problem of  synthesis of Hackathons Dataset throughtout the world.
 
-# Construction of Dataset
+## Construction of Dataset
 
 The data for this dataset is obtained by Web Scraping using Python and Selenium.
 
@@ -27,7 +29,7 @@ The data for this dataset is obtained by Web Scraping using Python and Selenium.
 - The clean data is stored as a dataset in a CSV file.
 - Unique datapoints like Number of participants, Start Date, End Date, Location(Online/Offline location), Prize Money, Themes
 
-## Uses:
+## Uses
 
 - To Observe the trends:
 	- Number of Hackathons per year.
@@ -43,5 +45,5 @@ The data for this dataset is obtained by Web Scraping using Python and Selenium.
 
 
 
-# Team
+## Team
 [![Site https://github.com/pcarribean/](https://img.shields.io/badge/MANISHA-DEV-lightgray)](https://github.com/pcarribean/) [![Site https://github.com/msharsha/](https://img.shields.io/badge/MSHARSHA-DEV-brightgreen)](https://github.com/msharsha) [![Site https://github.com/revanth-reddy/](https://img.shields.io/badge/REVANTH-DEV-skyblue)](https://github.com/revanth-reddy/)
