@@ -16,21 +16,13 @@
 ## Construction of Dataset
 The data for this dataset is obtained by Web Scraping using Python and Selenium.
 
-## Problems
+## Size
+- We are able to generate a dataset of 6,236 hackathons due to time constraints. However this size can be tremendously increased.
 
-- While scraping the website, the content inside website is not rendered as static content.
-- As the content is dynamic one, it is hard to scrape.
-- The website has a pagination effect based on page scrolling. So, initially `x` items are loaded in the website and on scrolling another `x` items are loaded and so on.
-- Unless we scroll we can't scrape the entire dataset.
+## Uniqueness
+- This is the first Hackathon's Dataset with 8 unique features that are the major datapoints of a Hackathon
 
-## Team's Approach
-- We have used Selenium to scrape the website.
-- We used a Chrome Web Driver to create the automation of scrolling and scraping the data.
-- After Scraping, we got the raw data which is processed further and cleaned.
-- The clean data is stored as a dataset in a CSV file.
-- Unique datapoints like Number of participants, Start Date, End Date, Location(Online/Offline location), Prize Money, Themes
-
-## Uses
+## Usefulness
 - To Observe the trends:
 	- Number of Hackathons per year.
 	- Hackathons Prize Money Trend over years.
@@ -44,30 +36,47 @@ The data for this dataset is obtained by Web Scraping using Python and Selenium.
 
 ## Visualization
 
-- Interactive Visualization: https://datastudio.google.com/reporting/269afbc3-e982-4fef-aee5-08010b427070
+- Interactive Visualization: https://datastudio.google.com/reporting/269afbc3-e982-4fef-aee5-08010b427070 (Open to interactive with visualization playground)
 
 - User Interactive graphs and charts to analyze the hackathon's dataset
 
-![Visualization Image](https://raw.githubusercontent.com/revanth-reddy/tamudatathon/master/visualization.png)
+![Visualization Image](https://raw.githubusercontent.com/revanth-reddy/tamudatathon/master/images/visualization.png)
 
-![Visualization Image](https://raw.githubusercontent.com/revanth-reddy/tamudatathon/master/graph-1.png)
+![Visualization Image](https://raw.githubusercontent.com/revanth-reddy/tamudatathon/master/images/graph-1.png)
   
-![Visualization Image](https://raw.githubusercontent.com/revanth-reddy/tamudatathon/master/graph2.png)
+![Visualization Image](https://raw.githubusercontent.com/revanth-reddy/tamudatathon/master/images/graph-2.png)
  
-![Visualization Image](https://raw.githubusercontent.com/revanth-reddy/tamudatathon/master/graph-3.png)
+![Visualization Image](https://raw.githubusercontent.com/revanth-reddy/tamudatathon/master/images/graph-3.png)
 
+
+## Team's Approach
+- To build a dataset, we need to find a potential and authentic source, for which we used devpost as the source.
+- To get the data from Website, we used Web Scraping tools which helps in getting the raw data
+- We have used Selenium to scrape the website.
+- We used a Chrome Web Driver to create the automation of scrolling and scraping the data.
+- After Scraping, we got the raw data which is processed further and cleaned.
+- The clean data is stored as a dataset in a CSV file.
+- Unique datapoints like Number of participants, Start Date, End Date, Location(Online/Offline location), Prize Money, Themes
+- After obtaining a decent dataset, we used Google Studio to provide insights of the dataset and relations between the variables in the dataset.
+
+## Reflection
+- ### Problems
+	- While scraping the website, the content inside website is not rendered as static content.
+	- As the content is dynamic one, it is hard to scrape.
+	- The website has a pagination effect based on page scrolling. So, initially `x` items are loaded in the website and on scrolling another `x` items are loaded and so on.
+	- Unless we scroll we can't scrape the entire dataset.
+- ### Future Scope
+	- The Dataset can be used to build a Machine Learning Model (to help in picking a theme/prize money/participant estimation and also in analyzing the trends of Hackathons)
+	- Automation of Scraping using Job Schedulers(CI/CD) to scrape data periodically 
+- Large data can be scraped from various sources
+	- Scraping process can be further optimized by using mutlithreading.
 ## Team
 
   
 
 [![Site https://github.com/pcarribean/](https://img.shields.io/badge/MANISHA-DEV-lightgray)](https://github.com/pcarribean/) [![Site https://github.com/msharsha/](https://img.shields.io/badge/MSHARSHA-DEV-brightgreen)](https://github.com/msharsha) [![Site https://github.com/revanth-reddy/](https://img.shields.io/badge/REVANTH-DEV-skyblue)](https://github.com/revanth-reddy/)
 
-  
-
-  
-
 [![Linkedin: manisha-bachu](https://img.shields.io/badge/-manisha--bachu-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/thaianebraga/)](https://www.linkedin.com/in/manisha-bachu/) [![Linkedin: msharsha](https://img.shields.io/badge/-msharsha-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/thaianebraga/)](https://www.linkedin.com/in/msharsha/) [![Linkedin: revanth--reddy](https://img.shields.io/badge/-revanth--reddy-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/thaianebraga/)](https://www.linkedin.com/in/revanth--reddy/)
 
   
-
-![Team Image](https://raw.githubusercontent.com/revanth-reddy/tamudatathon/master/team.png)
+![Team Image](https://raw.githubusercontent.com/revanth-reddy/tamudatathon/master/images/team.png)
