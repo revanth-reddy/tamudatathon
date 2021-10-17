@@ -1,5 +1,5 @@
 
-# Hackathons Dataset!
+# DaHack - Hackathons Dataset!
 > Hackathon's Dataset in Hackathon
   
 
@@ -13,7 +13,7 @@
 
 > This [Dataset](https://github.com/revanth-reddy/tamudatathon/blob/master/hackathons_data.csv) is built as a part of TAMU Datathon 2021. It contains the details of hackathon which include Title, Location, Start Date, End Date, Prize Money, Number of Participants, Host of Hackathon, Themes in the Hackathon
 
-> As a part of [Tamu Datathon 2021](https://tamudatathon.com/) challenges, we approached the problem of synthesis of Hackathons Dataset throughtout the world.
+> As a part of [Tamu Datathon 2021](https://tamudatathon.com/) challenges, we chose [TD Data Synthesis Challenge](https://tamudatathon.com/challenges/docs/td_challenge). We approached the problem of synthesis of Hackathons Dataset throughtout the world. 
 
   
 
@@ -84,8 +84,8 @@ The data for this dataset is obtained by Web Scraping using Python and Selenium.
 
 ## Visualization
 
-- Insights: https://datastudio.google.com/reporting/269afbc3-e982-4fef-aee5-08010b427070
-
+- Interactive Visualization: https://datastudio.google.com/reporting/269afbc3-e982-4fef-aee5-08010b427070
+- User Interactive graphs and charts to analyze the hackathon's dataset
   
 
 ![Visualization Image](https://raw.githubusercontent.com/revanth-reddy/tamudatathon/master/visualization.png)
@@ -99,3 +99,5 @@ The data for this dataset is obtained by Web Scraping using Python and Selenium.
   
 
 [![Linkedin: manisha-bachu](https://img.shields.io/badge/-manisha--bachu-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/thaianebraga/)](https://www.linkedin.com/in/manisha-bachu/) [![Linkedin: msharsha](https://img.shields.io/badge/-msharsha-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/thaianebraga/)](https://www.linkedin.com/in/msharsha/) [![Linkedin: revanth--reddy](https://img.shields.io/badge/-revanth--reddy-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/thaianebraga/)](https://www.linkedin.com/in/revanth--reddy/)
+
+![Team Image](https://raw.githubusercontent.com/revanth-reddy/tamudatathon/master/team.png)
