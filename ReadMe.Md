@@ -46,5 +46,7 @@ The data for this dataset is obtained by Web Scraping using Python and Selenium.
 ## Visualization
 - Insights: https://datastudio.google.com/reporting/269afbc3-e982-4fef-aee5-08010b427070
 
+![Visualization Image](https://raw.githubusercontent.com/revanth-reddy/tamudatathon/master/visualization.png)
+
 ## Team
 [![Site https://github.com/pcarribean/](https://img.shields.io/badge/MANISHA-DEV-lightgray)](https://github.com/pcarribean/) [![Site https://github.com/msharsha/](https://img.shields.io/badge/MSHARSHA-DEV-brightgreen)](https://github.com/msharsha) [![Site https://github.com/revanth-reddy/](https://img.shields.io/badge/REVANTH-DEV-skyblue)](https://github.com/revanth-reddy/)
