@@ -61,23 +61,23 @@ The data for this dataset is obtained by Web Scraping using Python and Selenium.
 
 - To Observe the trends:
 
-- Number of Hackathons per year.
+    - Number of Hackathons per year.
 
-- Hackathons Prize Money Trend over years.
+    - Hackathons Prize Money Trend over years.
 
-- Rise of Themes through the years.
+    - Rise of Themes through the years.
 
-- Participation in the Hackathon across years/themes.
+    - Participation in the Hackathon across years/themes.
 
-- And many more ...
+    - And many more ...
 
 - To Build ML models in order :
 
-- to predict Prize Money based on other features like participation, themes, location.
+    - to predict Prize Money based on other features like participation, themes, location.
 
-- to estimate user participation based on location, prize money, themes, etc.
+    - to estimate user participation based on location, prize money, themes, etc.
 
-- to analyze relationship between the above features.
+    - to analyze relationship between the above features.
 
   
   
