@@ -68,7 +68,7 @@ The data for this dataset is obtained by Web Scraping using Python and Selenium.
 - ### Future Scope
 	- The Dataset can be used to build a Machine Learning Model (to help in picking a theme/prize money/participant estimation and also in analyzing the trends of Hackathons)
 	- Automation of Scraping using Job Schedulers(CI/CD) to scrape data periodically 
-- Large data can be scraped from various sources
+    - Large data can be scraped from various sources
 	- Scraping process can be further optimized by using mutlithreading.
 ## Team
 
